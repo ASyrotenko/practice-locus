@@ -1,0 +1,38 @@
+:root {
+  --primary-accent-color: #58a9a5;
+}
+
+/* general rules */
+
+.container {
+  outline: 1px solid tomato;
+  max-width: 1660px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  padding: 85px 0 105px;
+}
+
+.header-logo-icon {
+  fill: currentColor;
+}
+
+.header-logo {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: calc(52 / 35);
+  color: var(--primary-accent-color);
+}
